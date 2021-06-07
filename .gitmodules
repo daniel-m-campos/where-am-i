@@ -1,0 +1,6 @@
+[submodule "src/my_robot"]
+	path = src/my_robot
+	url = git@github.com:daniel-m-campos/my_robot.git
+[submodule "src/pgm_map_creator"]
+	path = src/pgm_map_creator
+	url = git@github.com:daniel-m-campos/pgm_map_creator.git
