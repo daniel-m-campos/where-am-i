@@ -1,21 +1,23 @@
 # Where-Am-I Project
 
-### Install Requirements
-#### Install dependencies
-```sh
-sudo apt-get install -y libignition-math2-dev protobuf-compiler
-sudo apt-get install ros-melodic-navigation
-sudo apt-get install ros-melodic-map-server
-sudo apt-get install ros-melodic-move-base
-sudo apt-get install ros-melodic-amcl
-```
+![](img/RViz4.png)
 
+### Install Requirements
 This project requires `gcc>=9` due to the use of `C++17`.
 ```sh
 $ git clone https://github.com/daniel-m-campos/where-am-i.git --recurse-submodules
-$ cd go-chase-it
+$ where-am-i
 $ source install-ubuntu.sh
 ```
+#### Dependencies
+* libignition-math2-dev 
+* protobuf-compiler
+* ros-melodic-navigation
+* ros-melodic-map-server
+* ros-melodic-move-base
+* ros-melodic-amcl
+
+These are installed with `source install-ubuntu.sh` for ROS `kinetic` and `melodic` only.
 
 ### Build the workspace
 ```sh
