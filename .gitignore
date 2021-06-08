@@ -56,4 +56,3 @@ CATKIN_IGNORE
 # Data
 *.bag
 *.txt
-*.rviz
