@@ -60,24 +60,13 @@ where-am-i/
 ├── README.md
 └── src
     ├── CMakeLists.txt -> /opt/ros/melodic/share/catkin/cmake/toplevel.cmake
-    ├── my_robot
-    │   ├── CMakeLists.txt
-    │   ├── config
-    │   ├── launch
-    │   ├── maps
-    │   ├── meshes
-    │   ├── package.xml
-    │   ├── urdf
-    │   └── worlds
-    └── pgm_map_creator
-        ├── cmake-build-debug
+    └── my_robot
         ├── CMakeLists.txt
+        ├── config
         ├── launch
-        ├── LICENSE
         ├── maps
-        ├── msgs
+        ├── meshes
         ├── package.xml
-        ├── README.md
-        ├── src
-        └── world
+        ├── urdf
+        └── worlds
 ```
